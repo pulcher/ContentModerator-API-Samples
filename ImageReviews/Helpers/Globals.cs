@@ -19,7 +19,7 @@ namespace ImageReviews
         public const int CALLRATEEXCEEDED = 429;
         public const int CALLWAITTIME = 1000;
 
-        public const string TOP_DIR = @"C:\Webinar\ContentModerator-API-Samples\ImageReviews\Sample files\";
+        public const string TOP_DIR = @"d:\repos\ContentModerator-API-Samples\ImageReviews\Sample files\";
         public const string IMAGE_URL = "https://moderatorsampleimages.blob.core.windows.net/samples/sample"; // + Index + ".jpg"
         public const string MODERATED_JSONFILE = TOP_DIR + "moderationoutput"; // + "Index" + ".json"
         public const string REVIEW_REQUEST_CREATION_JSONFILE = TOP_DIR + "reviewrequest.json";

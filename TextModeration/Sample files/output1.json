@@ -1,27 +1,33 @@
 ﻿{
-  "OriginalText": "You are so lzay!",
-  "NormalizedText": "You are so lazy!",
-  "AutoCorrectedText": "You are so lazy!",
-  "Misrepresentation": null,
-  "PII": {
-    "Email": [ ],
-    "IPA": [ ],
-    "Phone": [ ],
-    "Address": [ ],
-    "SSN": [ ]
-  },
-  "Classification": {
-    "ReviewRecommended": false,
-    "Category1": { "Score": 0.019010813906788826 },
-    "Category2": { "Score": 0.26698011159896851 },
-    "Category3": { "Score": 0.0011942373821511865 }
-  },
-  "Language": "eng",
-  "Terms": null,
-  "Status": {
-    "Code": 3000,
-    "Description": "OK",
-    "Exception": null
-  },
-  "TrackingId": "b51706cb-7a3c-4e93-bf33-d42b60edbb1d"
+    "OriginalText": "You are so lzay!",
+    "NormalizedText": "You are so lazy!",
+    "AutoCorrectedText": "You are so lazy!",
+    "Misrepresentation": null,
+    "PII": {
+        "Email": [],
+        "IPA": [],
+        "Phone": [],
+        "Address": [],
+        "SSN": []
+    },
+    "Classification": {
+        "ReviewRecommended": false,
+        "Category1": {
+            "Score": 0.019010813906788826
+        },
+        "Category2": {
+            "Score": 0.26698011159896851
+        },
+        "Category3": {
+            "Score": 0.18961136043071747
+        }
+    },
+    "Language": "eng",
+    "Terms": null,
+    "Status": {
+        "Code": 3000,
+        "Description": "OK",
+        "Exception": null
+    },
+    "TrackingId": "1f486818-6e0e-45aa-9296-9d0614fd9369"
 }

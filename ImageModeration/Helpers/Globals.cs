@@ -15,7 +15,7 @@ namespace ImageModeration
         public const int CALLRATEEXCEEDED = 429;
         public const int CALLWAITTIME = 1000;
 
-        public const string TOP_DIR = @"C:\Webinar\ContentModerator-API-Samples\ImageModeration\Sample files\";
+        public const string TOP_DIR = @"D:\repos\ContentModerator-API-Samples\ImageModeration\Sample files\";
         public const string INPUT_FILE = TOP_DIR + "input.txt";
         public const string OUTPUT_JSONFILE = TOP_DIR + "output";
 
