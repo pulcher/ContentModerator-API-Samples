@@ -29,6 +29,6 @@ namespace ImageReviews
         public const string REVIEW_TEAM_ID = Secrets.REVIEW_TEAM_ID;
 
         // All Uris
-        public const string APIURI = "https://westus.api.cognitive.microsoft.com/contentmoderator/review/v1.0/teams/pulchertest/reviews";
+        public const string APIURI = "https://westus.api.cognitive.microsoft.com/contentmoderator/review/v1.0/teams/YOUR_TEAM_ID/reviews";
     }
 }

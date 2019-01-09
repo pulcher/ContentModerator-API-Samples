@@ -13,7 +13,7 @@ namespace VideoModeration
         public static CloudMediaContext _context = null;
 
         // Azure Media Services authentication
-        public const string AZURE_AD_TENANT_NAME = "pulcher.onmicrosoft.com";
+        public const string AZURE_AD_TENANT_NAME = "YOUR_AD_TENANT_NAME";
         public const string CLIENT_ID = Secrets.CLIENT_ID;
         public const string CLIENT_SECRET = Secrets.CLIENT_SECRET;
 
