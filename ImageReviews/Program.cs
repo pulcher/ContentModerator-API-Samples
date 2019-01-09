@@ -53,7 +53,7 @@ namespace ImageReviews
 
         static void CreateImageReviewItem (int Index, ImageModerationResponse imr, ref ReviewCreationRequest rcr)
         {
-            string ModeratedImageUrl = Globals.IMAGE_URL + Index.ToString() + ".jpg";
+            string ModeratedImageUrl = Globals.IMAGE_URL + "sample" + Index.ToString() + ".jpg";
 
             Console.WriteLine("Creating review creation request for: " + ModeratedImageUrl);
  
@@ -78,6 +78,10 @@ namespace ImageReviews
             {
                 Console.WriteLine("Writing the review creation request JSON to file.");
                 File.WriteAllText(Globals.REVIEW_REQUEST_CREATION_JSONFILE, ReviewCreationRequestJSON);
+            }
+            else
+            {
+                Console.WriteLine($"Error occured: {response.StatusCode}");
             }
 
             return (int)response.StatusCode;

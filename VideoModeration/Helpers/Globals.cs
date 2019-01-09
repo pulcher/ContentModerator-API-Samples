@@ -13,7 +13,7 @@ namespace VideoModeration
         public static CloudMediaContext _context = null;
 
         // Azure Media Services authentication
-        public const string AZURE_AD_TENANT_NAME = "microsoft.onmicrosoft.com";
+        public const string AZURE_AD_TENANT_NAME = "pulcher.onmicrosoft.com";
         public const string CLIENT_ID = Secrets.CLIENT_ID;
         public const string CLIENT_SECRET = Secrets.CLIENT_SECRET;
 
@@ -23,7 +23,7 @@ namespace VideoModeration
         // Content Moderator Media Processor Name
         public const string MEDIA_PROCESSOR = "Azure Media Content Moderator";
 
-        public const string TOP_DIR = @"C:\Webinar\ContentModerator-API-Samples\VideoModeration\Sample files\";
+        public const string TOP_DIR = @"D:\repos\ContentModerator-API-Samples\VideoModeration\Sample files\";
         public const string OUTPUT_FOLDER = TOP_DIR;
         public const string INPUT_FILE = TOP_DIR + "windows10.mp4";
 

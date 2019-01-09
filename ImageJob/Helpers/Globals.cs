@@ -19,7 +19,7 @@ namespace ImageJob
         public const int CALLRATEEXCEEDED = 429;
         public const int CALLWAITTIME = 1000;
 
-        public const string TOP_DIR = @"C:\Webinar\ContentModerator-API-Samples\ImageJob\Sample files\";
+        public const string TOP_DIR = @"d:\repos\ContentModerator-API-Samples\ImageJob\Sample files\";
         public const string IMAGE_URL = "https://moderatorsampleimages.blob.core.windows.net/samples/sample"; // + Index + ".jpg"
         public const string JOB_CREATION_REQUEST_JSONFILE = TOP_DIR + "jobrequest.json";
 

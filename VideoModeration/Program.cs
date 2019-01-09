@@ -32,7 +32,7 @@ namespace VideoModeration
         static void RunContentModeratorJob(IAsset asset)
         {
             // Grab the presets
-            string configuration = File.ReadAllText(Globals.CONTENT_MODERATOR_PRESET_FILE);
+            string configuration = File.ReadAllText(Globals.TOP_DIR + Globals.CONTENT_MODERATOR_PRESET_FILE);
 
             // grab instance of Azure Media Content Moderator MP
             IMediaProcessor mp = Globals._context.MediaProcessors.GetLatestMediaProcessorByName(Globals.MEDIA_PROCESSOR);

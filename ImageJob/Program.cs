@@ -19,7 +19,7 @@ namespace ImageJob
                 for (int i = 1; i <= Globals.REVIEWS; i++)
                 {
                     // Start moderation job with workflowname = "showallreviews" or "showonlyracy"
-                    StartImageJob(i, "showonlyracy");
+                    StartImageJob(i, "default");
                     Console.WriteLine();
                 }
             }

@@ -20,7 +20,7 @@ namespace ImageReviews
         public const int CALLWAITTIME = 1000;
 
         public const string TOP_DIR = @"d:\repos\ContentModerator-API-Samples\ImageReviews\Sample files\";
-        public const string IMAGE_URL = "https://moderatorsampleimages.blob.core.windows.net/samples/sample"; // + Index + ".jpg"
+        public const string IMAGE_URL = "http://pulcher.biz/samples/images/"; // + Index + ".jpg"
         public const string MODERATED_JSONFILE = TOP_DIR + "moderationoutput"; // + "Index" + ".json"
         public const string REVIEW_REQUEST_CREATION_JSONFILE = TOP_DIR + "reviewrequest.json";
 
@@ -29,6 +29,6 @@ namespace ImageReviews
         public const string REVIEW_TEAM_ID = Secrets.REVIEW_TEAM_ID;
 
         // All Uris
-        public const string APIURI = "https://westus.api.cognitive.microsoft.com/contentmoderator/review/v1.0/teams/testreviewsrh/reviews";
+        public const string APIURI = "https://westus.api.cognitive.microsoft.com/contentmoderator/review/v1.0/teams/pulchertest/reviews";
     }
 }

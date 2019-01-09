@@ -10,6 +10,6 @@ namespace ImageReviews
     {
         //Content Moderator Key 
         public const string CONTENTMODERATOR_APIKEY = "c59ae0de3f384a49960f724dc62b0c23";
-        public const string REVIEW_TEAM_ID = "pulchertest ";
+        public const string REVIEW_TEAM_ID = "pulchertest";
     }
 }
