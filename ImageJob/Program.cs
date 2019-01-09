@@ -18,7 +18,7 @@ namespace ImageJob
                 // Iterate through all moderated JSONs...
                 for (int i = 1; i <= Globals.REVIEWS; i++)
                 {
-                    // Start moderation job with workflowname = "showallreviews" or "showonlyracy"
+                    // Start moderation job with workflowname = "default"
                     StartImageJob(i, "default");
                     Console.WriteLine();
                 }

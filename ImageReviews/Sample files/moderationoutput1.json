@@ -1,23 +1,23 @@
 {
-  "AdultClassificationScore": 0.12118890881538391,
-  "IsImageAdultClassified": false,
-  "RacyClassificationScore": 0.8353503942489624,
-  "IsImageRacyClassified": true,
-  "AdvancedInfo": [
-    {
-      "Key": "ImageDownloadTimeInMs",
-      "Value": "352"
+    "AdultClassificationScore": 0.12118890881538391,
+    "IsImageAdultClassified": false,
+    "RacyClassificationScore": 0.8353503942489624,
+    "IsImageRacyClassified": true,
+    "AdvancedInfo": [
+        {
+            "Key": "ImageDownloadTimeInMs",
+            "Value": "560"
+        },
+        {
+            "Key": "ImageSizeInBytes",
+            "Value": "17280"
+        }
+    ],
+    "Result": true,
+    "Status": {
+        "Code": 3000,
+        "Description": "OK",
+        "Exception": null
     },
-    {
-      "Key": "ImageSizeInBytes",
-      "Value": "17280"
-    }
-  ],
-  "Result": true,
-  "Status": {
-    "Code": 3000,
-    "Description": "OK",
-    "Exception": null
-  },
-  "TrackingId": "WU_ibiza_b86f2b01-1d0d-43c5-b2dd-ee30b1109dc1_ContentModerator.S0_30f7b906-9c16-46a6-a6f1-5d1273195670"
+    "TrackingId": "WU_bfd69e3eb0c64c4aa218e2921e261f34_ContentModerator.Preview_e3b4ecf5-786d-44d2-85e3-467502ed3ac5"
 }
